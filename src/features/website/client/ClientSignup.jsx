@@ -161,7 +161,7 @@ const ClientSignup = () => {
                   </button>
                   <Link
                     className="inline-block align-baseline font-bold text-sm text-primary-950"
-                    to="/panel/iniciar-sesion"
+                    to="/ingresar"
                   >
                     ¿Ya tienes una cuenta? Iniciar sesión
                   </Link>
