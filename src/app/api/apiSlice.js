@@ -4,7 +4,7 @@ console.log(import.meta.env.VITE_BACKEND_URL);
 console.log(import.meta.env.VITE_NODE_ENV);
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://helpdesk.onrender.com",
+  baseUrl: "https://helpdesk-frontend-onat.onrender.com/",
   credentials: "include",
   prepareHeaders: (headers, { getState }) => {
     const token = getState().auth.token;
