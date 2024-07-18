@@ -1,7 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { setCredentials } from "../../features/auth/authSlice";
-console.log(import.meta.env.VITE_BACKEND_URL);
-console.log(import.meta.env.VITE_NODE_ENV);
 
 const baseQuery = fetchBaseQuery({
   baseUrl: "https://helpdesk-frontend-onat.onrender.com/",
